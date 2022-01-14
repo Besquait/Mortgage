@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__top">
+          <div class="logo">
+            <a href="#" class="logo__link">
+              <img src="img/logo.svg" alt="logo" class="logo__img" />
+            </a>
+          </div>
+          <nav class="header__nav">
+            <ul class="header__ul">
+              <li class="header__list">
+                <a href="#" class="header__link">Услуги</a>
+              </li>
+              <li class="header__list">
+                <a href="#" class="header__link">О компании</a>
+              </li>
+              <li class="header__list">
+                <a href="#" class="header__link">Контакты</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="number">
+            <a href="tel:+380-66-223-09-74" class="number__text"
+              >+79234567891</a
+            >
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="first-screen">
+      <div class="container">
+        <div class="first-screen__body">
+          <div class="header__main">
+            <div class="main__left">
+              <h1 class="main__title">
+                Помощь <br />
+                в получении ипотеки
+              </h1>
+              <p class="sub-title">
+                Гарантированная помощь в получении ипотеки даже с плохой
+                кредитной историей
+              </p>
+              <a href="#" class="main__btn">Оставить заявку</a>
+            </div>
+            <div class="main__right">
+              <img src="img/key.png" alt="" class="main__img" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <main>
+      <section class="choose-option">
+        <div class="information-container">
+          <div class="tabs information">
+            <div class="tabs__header information-header">
+              <button
+                class="tab-nav-item information-choose active"
+                data-tab="tab-1"
+              >
+                Ипотека
+              </button>
+              <button class="tab-nav-item information-choose" data-tab="tab-2">
+                Подбор квартиры
+              </button>
+              <button class="tab-nav-item information-choose" data-tab="tab-3">
+                Страхование
+              </button>
+              <button class="tab-nav-item information-choose" data-tab="tab-4">
+                Оценка
+              </button>
+            </div>
+
+            <div class="tabs__body information-wrapper">
+              <div class="tab_content tab-1 active information-text">
+                <div class="information__left">
+                  <h3 class="information__title">Без визита в банк</h3>
+                  <p class="information__sub-title">Оформление заявки онлайн</p>
+                  <h3 class="information__title">Скидка на страховку</h3>
+                  <p class="information__sub-title">
+                    до 30% на объект ипотеки, которая является обязательной при
+                    получении ипотеки
+                  </p>
+                  <h3 class="information__title">Ставка от 6,5%</h3>
+                  <p class="information__sub-title">
+                    Выгода до 500 тыс. рублей при оформлении по нашей
+                    партнерской программе
+                  </p>
+                  <div class="btn_resize">
+                    <button class="information__btn">Подробнее</button>
+                  </div>
+                </div>
+                <div class="fucking-image">
+                  <img class="responsive-img" src="img/family.png" alt="" />
+                </div>
+              </div>
+
+              <div class="tab_content tab-2 information-text">
+                <div class="information__left">
+                  <h3 class="information__title">Независмые эксперты</h3>
+                  <p class="information__sub-title">
+                    Являются третьим лицом между покупателем и продавцом и дают
+                    объективную оценку объекту
+                  </p>
+                  <h3 class="information__title">Без выезда на объект</h3>
+                  <p class="information__sub-title">
+                    Оформляем без посещения объекта, все данные для оценки уже
+                    находятся в базе
+                  </p>
+                  <h3 class="information__title">Готовность за 1 день</h3>
+                  <p class="information__sub-title">
+                    Отчет об оценке передоставляется в бумажном и электронном
+                    виде и сразу передается в банк
+                  </p>
+                  <div class="btn_resize">
+                    <button class="information__btn">Подробнее</button>
+                  </div>
+                </div>
+                <div class="fucking-image">
+                  <img class="responsive-img" src="img/family.png" alt="" />
+                </div>
+              </div>
+
+              <div class="tab_content tab-3 information-text">
+                <div class="information__left">
+                  <h3 class="information__title">Экономия до 70%</h3>
+                  <p class="information__sub-title">
+                    Достигается с помощью выбора страховой компании с
+                    оптимальными условиями, а не навязанной банками
+                  </p>
+                  <h3 class="information__title">Оформим онлайн</h3>
+                  <p class="information__sub-title">
+                    Сделаем расчет и отправим все необходимые документы
+                  </p>
+                  <h3 class="information__title">Все виды жилья</h3>
+                  <p class="information__sub-title">
+                    Оформим страховку при приобритенияя любого вида недвижимости
+                  </p>
+                  <div class="btn_resize">
+                    <button class="information__btn">Подробнее</button>
+                  </div>
+                </div>
+                <div class="fucking-image">
+                  <img class="responsive-img" src="img/family.png" alt="" />
+                </div>
+              </div>
+
+              <div class="tab_content tab-4 information-text">
+                <div class="information__left">
+                  <h3 class="information__title">Добиваемся лучших условий</h3>
+                  <p class="information__sub-title">
+                    Сэкономим ваше время и деньги
+                  </p>
+                  <h3 class="information__title">270 тысяч объектов</h3>
+                  <p class="information__sub-title">
+                    до 30% на объект ипотеки, которая является обязательной при
+                    получении ипотеки
+                  </p>
+                  <h3 class="information__title">Цены как у застройщика</h3>
+                  <p class="information__sub-title">
+                    Выгода до 500 тыс. рублей при оформлении по нашей
+                    партнерской программе
+                  </p>
+                  <div class="btn_resize">
+                    <button class="information__btn">Подробнее</button>
+                  </div>
+                </div>
+                <div class="fucking-image">
+                  <img class="responsive-img" src="img/family.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="cards">
+        <div class="information-container">
+          <div class="cards__wrapper">
+            <div class="card card-first">
+              <div class="card__image">
+                <img
+                  class="card__image_index"
+                  src="img/house.svg"
+                  alt="house"
+                />
+              </div>
+              <div class="card__text">
+                <h3 class="card__title">
+                  Окажем профессиональную помощь <br />
+                  в получении ИПОТЕКИ
+                </h3>
+                <p class="card__sub-title">
+                  на комнату, квартиру, дом, земельные участки, и строительство
+                  загородного дома, без визита в банк!
+                </p>
+              </div>
+            </div>
+            <div class="card card-second">
+              <div class="card__image">
+                <img
+                  class="card__image_index"
+                  src="img/document.svg"
+                  alt="house"
+                />
+              </div>
+              <div class="card__text">
+                <h3 class="card__title">
+                  Подготовим все необходимые документы
+                </h3>
+                <p class="card__sub-title">
+                  с целью получения положительного решения банка на получение
+                  ипотечного кредита, оформим недостающие документы для
+                  совершения сделки.
+                </p>
+              </div>
+            </div>
+            <div class="card card-three">
+              <div class="card__image">
+                <img
+                  class="card__image_index"
+                  src="img/stats.svg"
+                  alt="house"
+                />
+              </div>
+              <div class="card__text">
+                <h3 class="card__title">Проведем анализ</h3>
+                <p class="card__sub-title">
+                  кредитных ипотечных предложений банков с целью выбора наиболее
+                  оптимальной программы ипотечного кредитования и предложим Вам
+                  самые выгодные варианты решения.
+                </p>
+              </div>
+            </div>
+            <div class="card card-four">
+              <div class="card__image">
+                <img
+                  class="card__image_index"
+                  src="img/hand.svg"
+                  alt="house"
+                />
+              </div>
+              <div class="card__text">
+                <h3 class="card__title">Уменьшим страховку</h3>
+                <p class="card__sub-title">
+                  до 30% на объект ипотеки, которая является обязательной при
+                  получении ипотеки.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="helps">
+        <div class="information-container">
+          <h2 class="help__title title_repeat">
+            Поможем если у Вас сложности:
+          </h2>
+          <div class="help__wrapper">
+            <div class="help__img">
+              <img src="img/idea.png" alt="idea" />
+            </div>
+            <div class="help__column">
+              <ul class="help__list">
+                <li class="help__item">нет первоначального взноса</li>
+                <li class="help__item">нет подтверждения доходов</li>
+                <li class="help__item">нет официального трудоустройства</li>
+                <li class="help__item">маленькая официальная зарплата</li>
+                <li class="help__item">сложности с кредитной историей</li>
+                <li class="help__item">большая кредитная нагрузка</li>
+                <li class="help__item">
+                  не знаете как использовать мат. Капитал
+                </li>
+                <li class="help__item">
+                  у вас декретный отпуск, временный перерыв в работе
+                </li>
+                <li class="help__item">нет прописки</li>
+              </ul>
+              <a href="#" class="help__btn">Узнать как</a>
+            </div>
+          </div>
+          <p class="help__label">
+            От Вас нужны только первичные документы и желание стать владельцем
+            собственной недвижимости!
+          </p>
+        </div>
+      </section>
+
+      <section class="about-us">
+        <div class="information-container container_line">
+          <h2 class="about-us__title- title_repeat">
+            Поможем если у Вас сложности:
+          </h2>
+          <p class="about-us__sub-title-">
+            Работаем исключительно с крупными банками по самым выгодным ставкам,
+            являемся официальными партнерами банков:
+          </p>
+          <div class="abous-us__images">
+            <img src="img/sber-bank.svg" alt="#" />
+            <img src="img/vtb.svg" alt="#" />
+            <img src="img/Alfa-Bank.svg" alt="#" />
+            <img src="img/uralsib.svg" alt="#" />
+          </div>
+        </div>
+        <div class="about-us__line"></div>
+        <div class="information-container">
+          <div class="about-us__wrapper">
+            <div class="about-us__card">
+              <p class="card__number">01</p>
+              <h3 class="card__title-">Одобрение ипотеки от 30 минут</h3>
+              <p class="card__sub-title-">
+                Одобрим ипотеку от 30 минут с минимальным пакетом документов за
+                счет наличия официальных договоров с банками и наличия
+                зарегистрированных аккаунтов в банках
+              </p>
+            </div>
+            <div class="about-us__card">
+              <p class="card__number">02</p>
+              <h3 class="card__title-">
+                Пониженные годовые ставки даже «зарплатникам»
+              </h3>
+              <p class="card__sub-title-">
+                За счет преференций от банков снизим для Вас ставку до 1% от
+                стандартной ставки, что позволит сэкономить на переплате сотни
+                тысяч рублей, даже если Вы получаете зарплату на карту данного
+                банка
+              </p>
+            </div>
+            <div class="about-us__card">
+              <p class="card__number">03</p>
+              <h3 class="card__title-">Улучшим условия одобрения</h3>
+              <p class="card__sub-title-">
+                Если Вам банк одобрил ипотеку по повышенной ставке или уменьшил
+                сумму кредита, то мы сможем увеличить сумму кредита и снизим
+                ставку по ипотеке за счет большого опыта работы на рынке
+                ипотечного кредитования и сферы недвижимости
+              </p>
+            </div>
+            <div class="about-us__card">
+              <p class="card__number">04</p>
+              <h3 class="card__title-">Онлайн сделка</h3>
+              <p class="card__sub-title-">
+                Вся сделка по покупке недвижимости в ипотеку в режиме онлайн!
+                Требуется всего одна встреча в банке на подписание кредитного
+                договора. Вы сэкономите кучу времени на подаче заявок сразу в
+                несколько банков
+              </p>
+            </div>
+            <div class="about-us__card">
+              <p class="card__number">05</p>
+              <h3 class="card__title-">Специфические сделки</h3>
+              <p class="card__sub-title-">
+                Хотите купить долю в квартире, комнату, гараж, коммерческий
+                объект, дом или ипотека с материнским капиталом, без
+                первоначального взноса, а может быть без полного пакета
+                документов, со сложностями в кредитной истории? При таком
+                положении дел мы проведем сделку-без лишних хлопот в банках
+              </p>
+            </div>
+            <div class="about-us__card">
+              <p class="card__number">06</p>
+              <h3 class="card__title-">Сделка «Под ключ»</h3>
+              <p class="card__sub-title-">
+                Одобрение ипотеки всего лишь полдела. Мы не только одобрим
+                ипотеку, но и проведем сделку «Под ключ», т.е. мы подберем
+                объект недвижимости, заключим с продавцом соглашение о покупке
+                и, вообще, будем с Вами на всех этапах сделки, вплоть до въезда
+                в свою квартиру, дом и другую недвижимость!
+              </p>
+            </div>
+          </div>
+          <p class="card__label">
+            ПРИ САМОСТОЯТЕЛЬНОЙ ПОДАЧЕ ДОКУМЕНТОВ НА ИПОТЕКУ МОЖНО СТОЛКНУТЬСЯ С
+            ДЕСЯТКАМИ ПРОБЛЕМ, КОТОРЫЕ НЕ ТОЛЬКО ОТНИМУТ ВРЕМЯ, НО И МОГУТ
+            ИСПОРТИТЬ КРЕДИТНУЮ ИСТОРИЮ
+          </p>
+        </div>
+      </section>
+
+      <section class="price">
+        <div class="information-container">
+          <h2 class="price__title">
+            Узнайте стоимость ипотеки <br />
+            вашей будущей квартиры
+          </h2>
+          <div class="price__wrapper">
+            <div class="price__check">
+              <p class="price__check-text">Выберем для Вас банк</p>
+              <p class="price__check-text">Подберем подходящие условия</p>
+              <p class="price__check-text">
+                Найдем оптимальную программу страхования
+              </p>
+              <p class="price__check-text">Соберем документы</p>
+              <p class="price__check-text">
+                Проконсультируем по юридическим вопросам
+              </p>
+              <p class="price__check-text">Проверим объект недвижимости</p>
+              <p class="price__check-text">Сопроводим сделку</p>
+            </div>
+            <div class="price__know">
+              <form action="#">
+                <div class="form__item">
+                  <p class="form__title">Вид недвижимости</p>
+                  <select name="Ready house" id="">
+                    <option value="ready house">Готовое жилье</option>
+                    <option value="ready house">Готовое жилье 2</option>
+                    <option value="ready house">Готовое жилье 3</option>
+                    <option value="ready house">Готовое жилье 4</option>
+                  </select>
+                </div>
+                <div class="form__item">
+                  <p class="form__title">Стоимость недвижимости</p>
+                  <input
+                    type="number"
+                    placeholder="Введите стоимость недвижимости"
+                  />
+                </div>
+                <div class="form__item">
+                  <p class="form__title">Первоначальный взнос</p>
+                  <input
+                    type="number"
+                    placeholder="Введите сумму первоначального взноса"
+                  />
+                </div>
+                <div class="form__item">
+                  <p class="form__title">Ежемесячный доход</p>
+                  <input
+                    type="number"
+                    placeholder="Введите сумму ежемесячного дохода"
+                  />
+                </div>
+                <div class="form__item">
+                  <p class="form__title">Ваше имя</p>
+                  <input type="text" placeholder="Имя" />
+                </div>
+                <div class="form__item">
+                  <p class="form__title">Номер телефона</p>
+                  <input type="tel" placeholder="Телефон" />
+                </div>
+                <button type="submit" class="price__btn">
+                  Получить одобрение
+                </button>
+              </form>
+              <p class="price__label">
+                Нажимая кнопку “Получить одобрение” вы соглашаетесь с политикой
+                конфиденциальности и даете согласие на обработку персональных
+                данных
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="need">
+        <div class="information-container">
+          <h2 class="need__title title_repeat">Что нужно делать?</h2>
+          <div class="need__wrpapper">
+            <div class="need__item">
+              <span class="need__number">1</span>
+              <h3 class="item__title">Обратитесь к нам</h3>
+              <p class="need__sub-title">Расскажите о своих предпочтениях</p>
+            </div>
+
+            <div class="need__item">
+              <div class="need__number">2</div>
+              <h3 class="item__title">Выберите квартиру</h3>
+              <p class="need__sub-title">
+                Выберите наилучший вариант, который вам подходит
+              </p>
+            </div>
+
+            <div class="need__item">
+              <span class="need__number">3</span>
+              <h3 class="item__title">Заключите сделку</h3>
+              <p class="need__sub-title">
+                Поможем с оформлением ипотеки, поможем решить все вопросы, будем
+                рядом до конца сделки
+              </p>
+            </div>
+
+            <div class="need__item">
+              <span class="need__number">4</span>
+              <h3 class="item__title">Получите ключи</h3>
+              <p class="need__sub-title">Расскажите о своих предпочтениях</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="request">
+        <div class="information-container">
+          <div class="request__wrapper">
+            <h2 class="request__title">
+              Оставьте заявку и мы с вами свяжемся:)
+            </h2>
+            <form class="form" action="submit">
+              <div class="svg">
+                <img class="request__svg" src="img/name.svg" alt="">
+                <input class="input" type="text" placeholder="Ваше имя" /></div>
+              <div class="svg">
+                <img class="request__svg" src="img/tel.svg" alt="">
+                <input type="tel" placeholder="Телефон" /></div>
+              <div class="svg">
+                <img class="request__svg" src="img/mail.svg" alt="">
+                <input type="email" placeholder="Электронная почта" />
+              </div>
+              <button class="request__btn">Отправить заявку</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="information-container">
+        <div class="footer__wrapper">
+          <div class="logo__contacts">
+            <a href="#" class="logo__link">
+              <img src="img/logo.svg" alt="logo" class="logo__img" />
+              <div class="soc">
+                <a href="#" class="soc__item instagram"><img src="img/instagram.svg" alt=""></a>
+                <a href="#" class="soc__item vk"><img src="img/vk.svg" alt=""></a>
+                <a href="#" class="soc__item facebook"><img src="img/facebook.svg" alt=""></a>
+              </div>
+            </a>
+          </div>
+          <nav class="footer__nav">
+            <ul class="footer__menu">
+              <li class="footer__menu-list-first  footer__title">Контакты</li>
+              <li class="footer__menu-list"><a href="tel:+79234567891" class="footer__link footer__sub-title">+79234567891</a></li>
+              <li class="footer__menu-list"><a href="#" class="footer__link footer__sub-title">Еmail: ipoteka.rf@gmail.com</a></li>
+              <li class="footer__menu-list"><a href="#" class="footer__link footer__sub-title">Адрес: Москва, <br>
+                ул. Вавилова 20, оф. 9</a></li>
+            </ul>
+            <ul class="footer__menu">
+              <li class="footer__menu-list-first footer__title">О компании</li>
+              <li class="footer__menu-list "><a href="#" class="footer__link footer__sub-title">О нас</a></li>
+              <li class="footer__menu-list "><a href="#" class="footer__link footer__sub-title">Отзывы</a></li>
+              <li class="footer__menu-list"><a href="#" class="footer__link footer__sub-title">Наша команда</a></li>
+            </ul>
+            <ul class="footer__menu">
+              <li class="footer__menu-list-first footer__title">Услуги</li>
+              <li class="footer__menu-list"><a href="#" class="footer__link footer__sub-title">Ипотека</a></li>
+              <li class="footer__menu-list"><a href="#" class="footer__link footer__sub-title">Подбор квартиры</a></li>
+              <li class="footer__menu-list"><a href="#" class="footer__link footer__sub-title">Страхование</a></li>
+              <li class="footer__menu-list"><a href="#" class="footer__link footer__sub-title">Оценка</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </footer>
+    <script src="js/index.js"></script>
+  </body>
+</html>
